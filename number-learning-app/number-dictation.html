@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>German Number Dictation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>German Number Dictation</h1>
+
+    <div class="controls">
+      <label for="wait-time">Waiting time between numbers:</label>
+      <select id="wait-time">
+        <option value="1000">1 seconds</option>
+        <option value="3000" selected>3 seconds</option>
+        <option value="5000">5 seconds</option>
+        <option value="8000">8 seconds</option>
+        <option value="10000">10 seconds</option>
+      </select>
+      <button id="start-dictation">Start Dictation</button>
+    </div>
+
+    <div class="status">
+      <p id="progress">Numbers played: 0 / 20</p>
+      <p id="current-number-display"></p>
+    </div>
+
+    <div class="feedback" id="feedback"></div>
+
+    <button id="go-back">Go Back</button>
+  </div>
+
+  <script src="number-dictation.js"></script>
+</body>
+</html>

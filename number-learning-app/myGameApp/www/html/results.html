@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn German Numbers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learn German Numbers</h1>
+        <div class="number-display">
+            <span id="number-text"></span>
+            <br></br>
+            <button id="play-audio">🔊</button>
+        </div>
+        <div class="input-section">
+            <input type="text" id="user-input" placeholder="Type the number in German">
+            <button id="submit-answer">Submit</button>
+        </div>
+        <div class="feedback" id="feedback"></div>
+        <div class="scoreboard">
+            <span>Score: <span id="score">0</span></span>
+        </div>
+    </div>
+    <div id="chronometer" class="chronometer">01:15</div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="result">Results</span>
+            <span id="wins">Wins: 0</span>
+            <span id="losses">Losses: 0</span>
+        </div>
+    </div>
+    <script src="writing_numbers.js"></script>
+</body>
+</html>

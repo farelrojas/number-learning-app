@@ -1,0 +1,314 @@
+/* Reset some basic elements for better cross-browser consistency */
+body, h1, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.number-display {
+  margin-bottom: 20px;
+}
+
+.number-display button {
+  font-size: 2em;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.number-display button:hover {
+  color: #007BFF;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.number-button {
+  padding: 15px 25px;
+  font-size: 1.5em;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.number-button:hover {
+  background-color: #007BFF;
+  color: white;
+  transform: scale(1.1);
+}
+
+.feedback {
+  margin-top: 20px;
+  font-size: 1.2em;
+  min-height: 1.5em; /* Ensures the layout doesn't shift when feedback text appears */
+}
+
+.scoreboard {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.scoreboard span {
+  font-weight: bold;
+}
+
+/* Reset some basic elements for better cross-browser consistency */
+
+/* Reset some basic elements for better cross-browser consistency */
+body, h1, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.learning_options {
+  margin-bottom: 20px;
+}
+
+.learning_options ul {
+  list-style: none;
+  padding: 0;
+}
+
+.learning_options li {
+  margin-bottom: 15px;
+}
+
+.learning_options a {
+  display: block;
+  padding: 15px 25px;
+  font-size: 1.5em;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.learning_options a:hover {
+  background-color: #007BFF;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+/* Reset some basic elements for better cross-browser consistency */
+body, h1, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.select-language {
+  margin-bottom: 20px;
+}
+
+#language-select {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#start-learning-btn {
+  padding: 15px 25px;
+  font-size: 1.5em;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#start-learning-btn:hover {
+  background-color: #007BFF;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Add this to your existing CSS styles */
+
+#number-text {
+  font-size: 2.5em; /* Increased font size */
+}
+
+#user-input {
+  font-size: 1.2em; /* Increased font size */
+  padding: 10px; /* Increased padding */
+}
+
+#play-audio,
+#submit-answer,
+#go-back {
+  padding: 15px 25px;
+  font-size: 1.5em;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#play-audio:hover,
+#submit-answer:hover,
+#go-back:hover {
+  background-color: #007BFF;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Add this CSS to your existing styles */
+
+footer {
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+}
+
+#go-back {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#go-back:hover {
+  background-color: #007BFF;
+  color: white;
+  transform: scale(1.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+#options-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #43a0ec;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #0474eb;
+}
+
+
